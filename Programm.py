@@ -10,8 +10,8 @@ from googletrans import Translator
 
 driver = webdriver.Chrome()
 driver.get("https://m.facebook.com/login/") #  https://m.facebook.com/login/
-email = "irinap.1984@mail.ru"
-password = "Karaganda84"
+email = "" #логин для входа
+password = "" #пароль для входа
 
 email_xpath = '//*[@id="m_login_email"]'
 pass_xpath = '//*[@id="m_login_password"]'
